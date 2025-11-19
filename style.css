@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul a{
+    color: #36536B;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn{
+    background-color: #BA4270;
+    border-radius: 24px;
+    padding: 16px 25px;
+    color: white;
+}
+.menu{
+    display: none;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content h1{
+    width: 546px;
+    font-size: 72px;
+    color: #36536B;
+}
+.header__content2{
+    display: flex;
+}
+.header__ctn{
+flex-wrap: wrap;
+margin: auto;
+
+}
+.header__h1{
+    font-size: 48px;
+    color: #36536B;
+    padding-bottom: 40px;
+}
+.header__porogrif{
+    width: 400px;
+    color: #6C8294;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+   
+    gap: 281px;
+}
+p{
+   font-size: 18px;
+   color: #36536B; 
+   padding-top: 20px;
+}
+.hdr{
+    display: flex;
+    justify-content: space-around;
+padding: 20px 0;
+    background-color: #1B262F;
+}
+.hdr ul{
+    display: flex; 
+    gap: 50px;
+   padding: 10px 0;
+    color: white;
+}
+.ft{
+    
+}
+@media(max-width: 571px){
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}
+@media(max-width: 570px){
+    .hdr{
+        flex-direction: column;
+        display:flex ;
+        justify-content:center ;
+        align-items: center;
+        gap: 20px;
+        width: 600px
+        
+    }
+}
+@media(max-width: 569px){
+    .parent{
+        flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    }
+}
+
+@media(max-width: 567px){
+        .header__content2{
+        flex-direction: column;}
+        
+}
+
+
+
+
+@media(max-width: 562px){
+    .header__content{
+align-items: center;
+    }
+    .header__content h1{
+        font-size: 32px;
+        margin: auto;
+        text-align: center;
+        width: 300px;
+    }
+}
